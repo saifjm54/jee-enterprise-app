@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jee-enterprise-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: jee-enterprise-app
+  template:
+    metadata:
+      labels:
+        app: jee-enterprise-app
+    spec:
+      containers:
+        - name: jee-app
+          image: myapp:latest
+          ports:
+            - containerPort: 8080
