@@ -13,7 +13,7 @@
 |**5**| Deploy using Kubernetes |
 |**6**| Implement application using TDD |
 
-# ✅ Final Outcome # 
+## ✅ Final Outcome ## 
   1. **Enterprise-grade JEE application** with authentication, order processing, and product management.
   2. **Dockerized deployment** ensures consistency across environments.
   3. **CI/CD pipeline** automates builds, tests, and deployments.
